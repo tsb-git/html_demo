@@ -283,18 +283,17 @@ body{
     padding-left: 1.5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
-.widget-area .widget-links li::before{
+/* .widget-area .widget-links li::before{
     content: '\f061';
     position: absolute;
     left: 0;
     font-family: var(--icon-font);
     font-weight: 900;
-}
+} */
 .widget-area .widget-links li:last-child{
     border-bottom: none;
 }
-.widget-area .widget-links li i{
-    display: none;
+.widget-area .widget-links li i {
     margin-right: .5rem;
 }
 .widget-area .widget-links li b{
